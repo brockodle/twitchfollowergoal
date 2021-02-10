@@ -3,6 +3,7 @@ const options = { method: 'GET' };
 fetch('https://streamlabs.com/api/v1.0/authorize', options)
     .then(response => console.log(response))
     .catch(err => console.error(err));
+
 // Events will be sent when someone followers
 // Please use event listeners to run functions.
 document.addEventListener('goalLoad', function(obj) {
