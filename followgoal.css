@@ -1,0 +1,46 @@
+/* All html objects will be wrapped in the #wrap div */
+
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+#wrap {
+    background-color: #333333;
+    display: flex;
+    flex-flow: row-wrap;
+}
+
+.goal-cont {
+    font-family: 'segoe ui', sans-serif;
+}
+
+#title {
+    font-family: 'segoe ui', sans-serif;
+    width: 100%;
+    z-index: 100;
+    top: 50px;
+    position: absolute;
+    color: #2c86e1;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #00000077;
+}
+
+#bgpercent {
+    position: relative;
+    top: 0;
+    z-index: 50;
+    height: 100px;
+    background-color: #ffffff55;
+}
+
+#currpercent {
+    font-family: 'Atma', cursive;
+    text-shadow: 2px 2px 2px #2c86e177;
+    z-index: 0;
+    left: 40%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    color: #b28080;
+    font-weight: bold;
+    font-size: 40px;
+}
