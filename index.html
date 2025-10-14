@@ -1,10 +1,26 @@
-<!-- All html objects will be wrapped in the #wrap div -->
-<style rel="stylesheet" href="followgoal.css"></style>
-<div id="bgpercent"></div>
-<div class='goal-cont'>
-    <div id='currpercent'></div>
-    <!-- <div id='goal-end-date'>
-            </div>-->
-</div>
-<div id='title'></div>
-<script src="followgoal.js" type="text/javascript"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follower Goal Panel</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="/followgoal.css">
+</head>
+<body>
+    <div id="wrap">
+        <div id="bgpercent">
+            <div id="progress-fill"></div>
+        </div>
+        <div class='goal-cont'>
+            <div id='currpercent'></div>
+            <div id='goal-end-date'></div>
+        </div>
+        <div id='title'></div>
+        <div id='goal-current' style="display: none;"></div>
+        <div id='goal-total' style="display: none;"></div>
+    </div>
+    <script src="/followgoal.js" type="text/javascript"></script>
+</body>
+</html>
